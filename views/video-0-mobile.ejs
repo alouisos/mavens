@@ -2,56 +2,9 @@
 <!-- Hey my name is Alex Louizos.  I love people taking a curious look into things. If you are like me and like making things possible you should join our team and help us fulfill our mission of using technology to save lives. Contact me at alouisos@gmail.com  Ps: if you keep searching the code you may be able to find more easter eggs...well, instead of keep searching it why don't you come with us to change the world?-->
 <html xmlns:xlink="http://www.w3.org/1999/xlink">
   <head>
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script type="text/javascript">
-      google.load('visualization', '1', {'packages':['motionchart']});
-      google.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Popularity-Measures');
-        data.addColumn('date', 'Date');
-        data.addColumn('number', 'Number-x');
-        data.addColumn('number', 'Number-y');
-        data.addColumn('string', 'Type');
-        data.addRows([
-          ['Views',  new Date ("2014-03-08"), 1, 253, 'Views'],
-          ['Views',  new Date ("2014-03-20"), 1, 2647, 'Views'],
-          ['Views',  new Date ("2014-03-30"), 1, 4293, 'Views'],
-          ['Views',  new Date ("2014-04-10"), 1, 6161, 'Views'],
-          ['Views',  new Date ("2014-04-20"), 1, 8145, 'Views'],
-          ['Views',  new Date ("2014-04-30"), 1, 10076, 'Views'],
-          
 
-          ['Shares', new Date ("2014-03-08"), 2, 254, 'Shares'],
-          ['Shares', new Date ("2014-03-20"), 2, 3009, 'Shares'],
-          ['Shares', new Date ("2014-03-30"), 2, 4524, 'Shares'],
-          ['Shares', new Date ("2014-04-10"), 2, 6851, 'Shares'],
-          ['Shares', new Date ("2014-04-20"), 2, 9487, 'Shares'],
-          ['Shares', new Date ("2014-04-30"), 2, 11866, 'Shares'],
-              
-
-          ['Likes', new Date ("2014-03-08"), 3,  137, 'Likes'],
-          ['Likes', new Date ("2014-03-20"), 3,  3354, 'Likes'],
-          ['Likes', new Date ("2014-03-30"), 3,  5840, 'Likes'],
-          ['Likes', new Date ("2014-04-10"), 3,  9878, 'Likes'],
-          ['Likes', new Date ("2014-04-20"), 3,  12211, 'Likes'],
-          ['Likes', new Date ("2014-04-30"), 3,  15185, 'Likes']
-          
-        ]);
-        var chart = new google.visualization.MotionChart(document.getElementById('chart_div'));
-        var options = {};
- options['state'] = '{"orderedByY":false,"iconType":"VBAR","duration":{"timeUnit":"D","multiplier":1},"xAxisOption":"2","iconKeySettings":[{"key":{"dim0":"Shares"}},{"key":{"dim0":"Likes"}},{"key":{"dim0":"Views"}}],"yZoomedDataMax":3181,"dimensions":{"iconDimensions":["dim0"]},"uniColorForNonSelected":false,"nonSelectedAlpha":0.4,"yZoomedDataMin":0,"yZoomedIn":false,"yAxisOption":"3","showTrails":false,"xZoomedDataMin":1,"colorOption":"4","yLambda":1,"playDuration":15000,"sizeOption":"3","xZoomedIn":false,"xLambda":1,"time":"1988","orderedByX":false,"xZoomedDataMax":3}'
-
-options['width'] = 600;
-options['height'] = 400;
-options['showSidePanel'] = false;
-options['showXMetricPicker'] =false;
-options['showYMetricPicker'] = false;
-
-        chart.draw(data, options);
-      }
-    </script>
-   <meta charset="utf-8">
+   
+    <meta charset="utf-8">
     <title>Mavens of London Visualisation </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -151,12 +104,14 @@ $(document).ready(function(){
         </div><!--/.container-fluid -->
       </div> 
 <br>
+
+
+</script>
 <br>
-<br><p class="hero-subtitle" style="color: #25b7c0"> Product: Superwash-Cleen</p></div> 
+<br><p class="hero-subtitle" style="color: #25b7c0"> Product: Superwash-Cleen</p>
+<p class="hero-subtitle"> Time Series of Popularity of the Video <br>
 
-<p class="hero-subtitle"> Time Series of Popularity of the Video <br>Press Play to start viewing <br> Choose visualisation type from upper right corner </p> 
 
-    <center><div id="chart_div" style="width: 800px; height: 400px;"></div></center>
 <br>
 <br>
 

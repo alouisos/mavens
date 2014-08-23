@@ -8,7 +8,9 @@ The size of the bubble corresponds to the popularity metric of the video.
 
 Clicking on every bubble gets you to a video specific page where you can have a time series visualisation of the popularity metrics for every video along with a display of the localisation of the video metrics. 
 
-Many improvements can be done based upon having access to a data API, like build an AngularJS directive to access data and visualise upon will. 
+The web app renders a different visualisation (RickShaw Charts) for mobile devices since the web version uses Google Motion Charts which are Java based and non mobile friendly. 
+
+Many improvements can be done based upon having access to a data API, like build AngularJS directives to access data and visualise upon fetched data with D3. 
 
 You may see a live demonstration of the visualisation at 
 

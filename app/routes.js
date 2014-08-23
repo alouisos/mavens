@@ -11,9 +11,15 @@ module.exports = function(app, passport) {
 		res.render('video-0.ejs')
 	});
 
+	app.get('/video-0-mobile', function(req, res) { 
+		res.render('video-0-mobile.ejs')
+	});
+
 	app.get('/video-2', function(req, res) { 
 		res.render('video-2.ejs')
 	});
+
+
 
 	app.get('/video-4', function(req, res) { 
 		res.render('video-4.ejs')

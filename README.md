@@ -29,6 +29,7 @@ Amazon EC2 instance for server <br>
 D3js -->  Bubbles visualization<br>
 Google Motion Charts --> Timeseries visual for Desktops <br>
 RickShaw Charts --> Timeseries visual for Mobile Devices <br>
+Google Maps APi for charts static display<br>
 Github version control <br>
 
 

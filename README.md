@@ -24,7 +24,7 @@ Louizos Alex
 
 TECHNOLOGIES USED: 
 NodeJS --> BackEnd, ExpressJS server <br>
-HTML, CSS, JQuery, Front End Javascript<br>
+HTML, CSS, JQuery, Twitter Bootstrap, Front End Javascript<br>
 Amazon EC2 instance for server <br>
 D3js -->  Bubbles visualization<br>
 Google Motion Charts --> Timeseries visual for Desktops <br>

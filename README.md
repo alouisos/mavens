@@ -23,13 +23,13 @@ Thank you
 Louizos Alex
 
 TECHNOLOGIES USED: 
-NodeJS --> BackEnd, ExpressJS server
-HTML, CSS, JQuery, Front End Javascript
-Amazon EC2 instance for server 
-D3js -->  Bubbles visualization
-Google Motion Charts --> Timeseries visual for Desktops 
-RickShaw Charts --> Timeseries visual for Mobile Devices 
-Github version control 
+NodeJS --> BackEnd, ExpressJS server <br>
+HTML, CSS, JQuery, Front End Javascript<br>
+Amazon EC2 instance for server <br>
+D3js -->  Bubbles visualization<br>
+Google Motion Charts --> Timeseries visual for Desktops <br>
+RickShaw Charts --> Timeseries visual for Mobile Devices <br>
+Github version control <br>
 
 
 

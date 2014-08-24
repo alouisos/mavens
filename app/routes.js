@@ -19,10 +19,18 @@ module.exports = function(app, passport) {
 		res.render('video-2.ejs')
 	});
 
+	app.get('/video-2-mobile', function(req, res) { 
+		res.render('video-2-mobile.ejs')
+	});
 
 
 	app.get('/video-4', function(req, res) { 
 		res.render('video-4.ejs')
+	
+	}); 
+
+	app.get('/video-4-mobile', function(req, res) { 
+		res.render('video-4-mobile.ejs')
 
 	
 	}); 
@@ -31,17 +39,41 @@ module.exports = function(app, passport) {
 		res.render('video-5.ejs')
 	});
 
+
+	app.get('/video-5-mobile', function(req, res) { 
+		res.render('video-5-mobile.ejs')
+	});
+
 	app.get('/video-6', function(req, res) { 
 		res.render('video-6.ejs')
 	});
+
+	app.get('/video-6-mobile', function(req, res) { 
+		res.render('video-6-mobile.ejs')
+	});
+
 	app.get('/video-7', function(req, res) { 
 		res.render('video-7.ejs')
 	});
+
+	app.get('/video-7-mobile', function(req, res) { 
+		res.render('video-7-mobile.ejs')
+	});
+
 	app.get('/video-8', function(req, res) { 
 		res.render('video-8.ejs')
 	});
+
+	app.get('/video-8-mobile', function(req, res) { 
+		res.render('video-8-mobile.ejs')
+	});
+
 	app.get('/video-9', function(req, res) { 
 		res.render('video-9.ejs')
+	});
+
+	app.get('/video-9-mobile', function(req, res) { 
+		res.render('video-9-mobile.ejs')
 	});
 
 	

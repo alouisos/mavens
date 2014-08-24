@@ -164,8 +164,19 @@ $(document).ready(function(){
 <!--
 if (screen.width <= 980) {
 document.location = "/video-0-mobile";
-}
+};
 //-->
+function isiPhone(){
+    return (
+        (navigator.platform.indexOf("iPhone") != -1)
+        || (navigator.platform.indexOf("iPod") != -1)
+        || (navigator.platform.indexOf("iPad") != -1)
+    );
+}
+if(isiPhone()){
+   window.location.replace("http://yourwebsite.com/mobile";
+};
+
 </script>
 <br>
 <br><p class="hero-subtitle" style="color: #25b7c0"> Product: Superwash-Cleen</p>
